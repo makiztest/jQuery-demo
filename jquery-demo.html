@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>jQuery Demo</title>
-    <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>    
+    <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
 </head>
+
 <body>
-    
+
     <h1>jQuery Demo</h1>
 
-    <ul>
-        <li>list 1</li>
-        <li>list 2</li>
-        <li>list 3</li>
+    <ul id="first-ul">
+        <li>jQuery $</li>
+        <li>
+            <a href="#">A jQuery $("a")</a>
+        </li>
+        <li id="list3">get by id with $("#list3")</li>
     </ul>
+    <p>Manipulate some style with .css()</p>
+    <h2>style object</h2>
+    <br>
+    <p class="cssObjects">add objects inside .css() for styling</p>
+    <p class="cssObjects">NO need to loop</p>
+    <p>the "first of type value" in css</p>
+    <hr>
+    <h3>jQuery common Methods</h3>
+    <input type="text" placeholder="name"> 
+    <ul>
+        <li>val()</li>        
+        <li>text()</li>
+        <li>attr()</li>
+        <li>html()</li>
+        <li>addClass()</li>
+        <li>removeClass()</li>
+        <li>toggleClass()</li>
+    </ul>
+
+    <script type="text/javascript" src="lib/script.js"></script>    
 </body>
+
 </html>
